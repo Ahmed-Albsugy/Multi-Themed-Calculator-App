@@ -72,6 +72,9 @@ body {
         background-color: var(--theme1-equal-and-toggle-active-background);
       }
     }
+    .calculator-header {
+      color: var(--theme1-text-dark);
+    }
     .screen {
       color: var(--theme1-text-dark);
       background-color: var(--theme1-screen-background);
@@ -114,6 +117,9 @@ body {
         background-color: var(--theme2-equal-and-toggle-active-background);
       }
     }
+    .calculator-header {
+      color: var(--theme2-text-light);
+    }
     .screen {
       color: var(--theme2-text-light);
       background-color: var(--theme2-screen-background);
@@ -154,6 +160,9 @@ body {
       &:hover {
         background-color: var(--theme3-equal-and-toggle-active-background);
       }
+    }
+    .calculator-header {
+      color: var(--theme3-text-dark);
     }
     .screen {
       color: var(--theme3-text-dark);
