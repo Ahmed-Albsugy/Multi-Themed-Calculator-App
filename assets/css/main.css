@@ -108,6 +108,12 @@ body {
         }
       }
     }
+    .attribution {
+      color: var(--theme1-text-dark);
+      a {
+        color: var(--theme1-text-dark);
+      }
+    }
   }
   &.theme2 {
     background-color: var(--theme2-main-background);
@@ -152,6 +158,12 @@ body {
         }
       }
     }
+    .attribution {
+      color: var(--theme2-text-light);
+      a {
+        color: var(--theme2-text-light);
+      }
+    }
   }
   &.theme3 {
     background-color: var(--theme3-main-background);
@@ -194,6 +206,12 @@ body {
         &:hover {
           background-color: var(--theme3-equal-and-toggle-active-background);
         }
+      }
+    }
+    .attribution {
+      color: var(--theme3-text-light);
+      a {
+        color: var(--theme3-text-light);
       }
     }
   }
